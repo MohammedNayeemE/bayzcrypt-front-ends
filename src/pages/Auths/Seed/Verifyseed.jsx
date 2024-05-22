@@ -138,7 +138,7 @@ const handleSubmimt = () =>{
                 <div>
                     <p>Input phrase #1 , #2 , #3</p>
                 </div>
-                <div style={{display:'flex' , flexDirection:'row'}}>
+                <div className='input_fields' style={{}}>
                     <div style={{margin:'5px'}}>
                    <input type="text" name='first' value={state.first} placeholder='1.' style={{padding:'8px' , border:'2px solid #458C66' , borderRadius:'6px' , width:'95px'}} onChange={handleChange} />
                    { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
@@ -161,18 +161,18 @@ const handleSubmimt = () =>{
                 <div>
                     <p>Input phrase #8 , #7 , #6</p>
                 </div>
-                <div style={{display:'flex' , flexDirection:'row'}}>
+                <div  className='input_fields' style={{}}>
                     <div style={{margin:'5px'}}>
                    <input type="text" name='eight' value={state.eight} placeholder='8.' style={{padding:'8px' , border:'2px solid #458C66' , borderRadius:'6px' , width:'95px'}} onChange={handleChange} />
-                                      { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
+                        { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
                    </div>
                    <div style={{margin:'5px'}}>
                    <input type="text" name='seven' value={state.seven} placeholder='7.'  style={{padding:'8px' , border:'2px solid #458C66' , borderRadius:'6px' , width:'95px'}} onChange={handleChange} />
-                                      { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
+                        { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
                    </div>
                    <div style={{margin:'5px'}}>
                    <input type="text" name='six' value={state.six} placeholder='6.' style={{padding:'8px' , border:'2px solid #458C66' , borderRadius:'6px' , width:'95px'}} onChange={handleChange}/> 
-                                      { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
+                        { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}
                    </div>
                 </div>
             </section>
@@ -184,7 +184,7 @@ const handleSubmimt = () =>{
                 <div>
                     <p>Input phrase #6 , #4 , #5</p>
                 </div>
-                <div style={{display:'flex' , flexDirection:'row'}}>
+                <div className='input_fields' style={{}}>
                     <div style={{margin:'5px'}}>
                    <input type="text" placeholder='5.' name='five' value={state.five} style={{padding:'8px' , border:'2px solid #458C66' , borderRadius:'6px' , width:'95px'}} onChange={handleChange} />
                                      { isCorrect && (<p style={{color:'red'}}>incorrect</p>)}

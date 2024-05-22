@@ -3,4 +3,14 @@
     .bg_image{
         display: none;
     }
+    .input_fields{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media  screen and (min-width:768px) {
+    .input_fields{
+        display: flex;
+        flex-direction: row;
+    }
 }
